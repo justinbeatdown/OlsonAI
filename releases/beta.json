@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-beta.1",
-  "download_url": "",
-  "sha256": "",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.1/OlsonAI_Setup_1.0.0_Beta1.exe",
+  "sha256": "3253B55462AD6AC73040FC75CE59B2FEE43306070D4EC4A059998F30A034CC1A",
   "required": false,
   "notes": "OlsonAI 1.0 Beta 1 - Initial public beta release."
 }
