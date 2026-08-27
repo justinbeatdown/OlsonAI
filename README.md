@@ -1,440 +1,169 @@
 # OlsonAI
 
-### Your PC. Your Files. Your AI.
+**Your PC. Your Files. Your AI.**
 
-**OlsonAI** is a local-first Windows desktop AI assistant designed to help you organize, understand, clean, search, and work with the files on your computer — without turning basic PC tasks into a complicated workflow.
+OlsonAI is a local-first Windows desktop AI assistant built to make everyday computer work faster, safer, and easier. It combines conversational AI with practical file tools, creation utilities, organization workflows, local search, cleanup tools, and desktop integration while keeping the user in control of file-changing actions.
 
-OlsonAI combines a conversational AI assistant with practical desktop tools, file management, automation, and system utilities in one application.
+> **Current public beta:** OlsonAI **1.0 Beta 9** (`1.0.0-beta.9`)
 
-> **Current Release:** OlsonAI 1.0 Beta 8  
-> **Platform:** Windows  
-> **Status:** Active Beta Development
+## What’s new in Beta 9
 
----
+Beta 9 is a major usability and Create Suite update focused on smoother Windows behavior, better file workflows, and clearer guidance.
 
-## What is OlsonAI?
+- **Create Suite File Converter** — batch-convert common image, audio, video, data, and text formats locally.
+- **Audio → MIDI Transcription** — transcribe detected musical notes from MP3, WAV, FLAC, OGG, and M4A audio into usable MIDI with local Spotify Basic Pitch support.
+- **What’s New screen** — after an update, OlsonAI explains what changed, where to find it, and how to use it on first launch.
+- **Home Command Center** — recent activity, quick actions, local component status, and safe Undo for supported operations.
+- **Smoother Windows minimize/restore** — rebuilt taskbar and system-tray transitions to reduce flicker, lag, and awkward restore behavior.
+- **Drag & drop** — route compatible files and folders directly into supported OlsonAI tools.
+- **Optional “Send to OlsonAI” Explorer integration** — bring files and folders into OlsonAI from the Windows right-click workflow.
+- **Component readiness checks** — clearer status for Ollama, FFmpeg, Basic Pitch, Pillow, and local-model requirements.
+- **Privacy-conscious diagnostics** — tester reports avoid chat contents, prompts, file contents, filenames, and personal workspace paths.
+- **Workflow polish** — clearer review/approval flows, empty states, keyboard shortcuts, friendly errors, and improved task feedback.
 
-OlsonAI is designed around a simple idea:
-
-**Your AI assistant should be able to help with your actual computer, not just answer questions in a chat box.**
-
-You can talk naturally with OlsonAI or use dedicated tools for specific jobs.
-
-OlsonAI can help organize messy folders, find duplicate files, identify unnecessary clutter, rename files intelligently, search your computer, analyze files and images, create new files, and more.
-
-Much of OlsonAI is designed to operate locally on your computer, with user approval required before potentially destructive actions are performed.
-
----
-
-## Features
+## Core features
 
 ### Ask OlsonAI
 
-A conversational AI assistant built directly into OlsonAI.
+A conversational desktop assistant designed for natural everyday interaction. OlsonAI can help answer questions, work with local context, assist with files, and route actions into its built-in tools.
 
-Use it for:
+### Create Suite
 
-- General questions and conversation
-- Help using your computer
-- File-related requests
-- Starting OlsonAI tools
-- Creating content
-- Summarizing information
-- Casual conversation
-- Interactive games
-- Context-aware assistance
+Create and work with useful file types from one place, including TXT, Markdown, DOCX, PDF, CSV, XLSX, HTML, Python, PowerShell, Batch, JSON, and PNG output.
 
-OlsonAI includes local AI support and is being actively developed to provide more natural, useful, and context-aware conversations.
+Beta 9 also adds:
 
----
+- **Convert Files** for batch format conversion.
+- **Audio → MIDI** for local music transcription.
 
 ### Smart Organize
 
-Turn cluttered folders into useful folder structures.
-
-Smart Organize can:
-
-- Analyze the contents of a folder
-- Identify different types of files
-- Suggest logical categories
-- Create an organization plan
-- Suggest improved filenames
-- Move files into organized folders
-- Allow you to review proposed changes before applying them
-
-**OlsonAI does not reorganize your files until you approve the plan.**
-
----
+Analyze a folder, review OlsonAI’s proposed organization plan, approve it, and then apply the changes. File-changing actions remain review-gated before execution.
 
 ### Smart Rename
 
-Analyze files and suggest cleaner, more descriptive filenames.
-
-Useful for:
-
-- Downloads
-- Photos
-- Documents
-- Project files
-- Poorly named exports
-- Automatically generated filenames
-
-Review the proposed names before OlsonAI makes changes.
-
----
+Generate and review clearer filenames before OlsonAI makes changes. Supported operations can appear in Recent Activity with safe Undo when possible.
 
 ### Smart Search
 
-Search your computer using more natural queries instead of manually digging through folders.
-
-Designed to make finding files faster when you know what you're looking for but don't remember exactly where it is.
-
----
+Search local files with progress reporting and cancellation support.
 
 ### Duplicate Finder
 
-Find exact duplicate files that are wasting storage space.
-
-Features include:
-
-- SHA-256 exact duplicate detection
-- Duplicate grouping
-- File size information
-- Location information
-- Review before removal
-- Safe cleanup through the Windows Recycle Bin
-
-Files are not permanently deleted automatically.
-
----
+Find exact duplicate files using SHA-256 comparison. OlsonAI protects a keeper copy and lets the user review duplicate copies before sending approved items to the Windows Recycle Bin.
 
 ### Smart Cleanup
 
-Find files that are likely unnecessary while keeping the user in control.
-
-Smart Cleanup supports:
-
-- Quick scans
-- Selected-folder scans
-- Full PC scans
-- Optional deeper scanning of hidden/cache locations
-- Temporary file detection
-- Cache and junk detection
-- Duplicate detection
-- File explanations
-- Confidence information
-- Review before cleanup
-
-Items approved for removal are sent to the **Windows Recycle Bin** whenever possible instead of being permanently erased.
-
-System folders and personal content are protected by safety rules.
-
----
+Scan selected folders or broader PC locations for supported cleanup candidates. Cleanup stays review-driven and uses the Windows Recycle Bin rather than silently deleting files permanently.
 
 ### Ask My Files
 
-Use OlsonAI to work with and understand information stored in your files.
-
-Designed for things like:
-
-- Asking questions about documents
-- Finding information
-- Understanding file contents
-- Summarizing material
-- Locating relevant files
-
----
+Use OlsonAI to work with supported local documents and file content without turning basic file workflows into a cloud-first experience.
 
 ### Image Analyzer
 
-Analyze images directly inside OlsonAI.
-
-Use it to better understand images, identify visible content, and incorporate images into AI-assisted workflows.
-
----
+Inspect and work with local images from inside OlsonAI.
 
 ### Clipboard AI
 
-Work with content already copied to your Windows clipboard.
+Bring clipboard content into OlsonAI for quick assistance.
 
-Designed to make quick AI-assisted actions possible without constantly moving information between applications.
+### Game Mode
 
----
+OlsonAI includes stateful games such as Hangman, Trivia, Rock Paper Scissors, Tic-Tac-Toe, Number Guessing, Riddles, Would You Rather, Word Association, 20 Questions, and Guess Who / Guess What.
 
-### Create Studio
+## Local-first by design
 
-Turn an idea into an actual file without leaving OlsonAI.
+OlsonAI is designed around local desktop workflows.
 
-Create Studio supports multiple output formats, including:
+- Local file tools do not upload source files simply to perform routine file operations.
+- File-changing actions use explicit review/approval flows.
+- Large optional local components are not silently downloaded.
+- Local AI can run through Ollama-supported models.
+- Diagnostic reports are intentionally sanitized and exclude chat contents, prompts, file contents, filenames, and personal workspace paths.
 
-- TXT
-- Markdown
-- Word documents
-- PDF
-- CSV
-- Excel
-- HTML
-- Python
-- PowerShell
-- Batch files
-- JSON
-- Images
-
-Choose the file type, destination, and what you want OlsonAI to create.
-
-You can review generated content before saving it.
-
----
-
-## Task Center
-
-OlsonAI includes a centralized task system for longer-running operations.
-
-Tasks can continue while you navigate elsewhere in the application.
-
-The Task Center provides information about:
-
-- Active tasks
-- Progress
-- Completed tasks
-- Failed tasks
-- Task status
-- Relevant tool navigation
-
-When a task finishes, OlsonAI can notify you and provide a direct route back to the tool that performed the work.
-
----
-
-## Approval System
-
-OlsonAI is designed around **review before action**.
-
-Operations that can modify, move, rename, or remove your files can require approval before execution.
-
-The approval system helps make it clear:
-
-- What OlsonAI wants to do
-- Which files are affected
-- Why an action is being suggested
-- What will happen after approval
-
-The goal is simple:
-
-**AI should help manage your computer without silently taking control of it.**
-
----
-
-## Local AI
-
-OlsonAI is being developed with a **local-first architecture**.
-
-Supported local models can perform AI tasks directly on your computer, reducing dependence on external AI services.
-
-Benefits include:
-
-- Greater privacy
-- Local processing
-- No per-message API charge for supported local operations
-- Continued functionality without depending entirely on cloud services
-
-Performance depends on your computer hardware and the model being used.
-
----
-
-## Memory
-
-OlsonAI can optionally remember useful preferences between conversations.
-
-Memory is:
-
-- Optional
-- User controlled
-- Viewable from Settings
-- Clearable by the user
-
-You can disable OlsonAI memory at any time.
-
----
-
-## Desktop & System Tray
-
-OlsonAI is designed to behave like a normal Windows desktop application.
-
-It supports:
-
-- Windows taskbar integration
-- System tray operation
-- Minimize-to-tray behavior
-- Close-to-tray behavior
-- Background tasks
-- Startup and notification sounds
-- One-click sound mute control
-
-Tray behavior can be configured from **Settings**.
-
----
+Some optional functionality may require locally installed components such as **Ollama**, **FFmpeg**, or **Spotify Basic Pitch**. OlsonAI reports component readiness rather than hiding missing dependencies.
 
 ## Updates
 
-OlsonAI includes a built-in update system.
+OlsonAI includes an update system that checks the public beta manifest, verifies downloaded installers with SHA-256, and launches the installer when an update is approved.
 
-The application can check the official OlsonAI GitHub release channel for new versions.
+After installing a newer version, OlsonAI can show a **What’s New** walkthrough on first launch so users know what changed and how to use it.
 
-Updates use:
+## Windows integration
 
-- Versioned releases
-- Release manifests
-- SHA-256 installer verification
+OlsonAI includes Windows desktop behavior such as:
 
-SHA-256 verification helps ensure that the downloaded installer matches the installer published for that release.
-
----
-
-## Safety Philosophy
-
-OlsonAI deals with real files on real computers, so safety is a major part of the project.
-
-Whenever practical, OlsonAI follows these principles:
-
-1. **Analyze first**
-2. **Explain what it found**
-3. **Show the proposed action**
-4. **Ask for approval**
-5. **Perform the approved action**
-6. **Prefer reversible operations**
-
-For example, cleanup operations generally prefer the **Recycle Bin** over permanent deletion.
-
----
+- Taskbar integration
+- Start Menu shortcuts
+- System tray support
+- Optional minimize-to-tray behavior
+- Drag-and-drop routing
+- Optional **Send to OlsonAI** Explorer integration
+- Startup and completion sounds with a persistent mute toggle
 
 ## Requirements
 
-OlsonAI is currently developed for:
+- Windows 10 or Windows 11, 64-bit
+- Sufficient disk space for OlsonAI and any optional local AI models/components
+- Ollama for supported local conversational AI workflows
+- FFmpeg for supported audio/video conversion workflows
+- Basic Pitch support for Audio → MIDI transcription
 
-- **Windows 10 / Windows 11**
-- 64-bit Windows recommended
-- Sufficient RAM for local AI models
-- Additional disk space for local models
-- Internet connection for application updates
-
-Local AI performance varies significantly depending on CPU, RAM, GPU, and model size.
-
----
+The downloadable Windows installer contains the OlsonAI application itself. Optional large local models/components are handled separately and are not silently downloaded by OlsonAI.
 
 ## Installation
 
-The easiest way to install OlsonAI is through the GitHub **Releases** section.
-
-1. Open the latest OlsonAI release.
-2. Download the Windows installer.
+1. Open the latest OlsonAI release on GitHub.
+2. Download the current Windows installer.
 3. Run the installer.
-4. Follow the installation prompts.
-5. Launch OlsonAI.
+4. Launch OlsonAI from the Start Menu or desktop shortcut.
+5. Follow the in-app setup/onboarding guidance.
 
-Because OlsonAI is currently beta software, Windows may display additional security prompts for unsigned or newly published builds.
+Because OlsonAI is currently distributed as a beta, Windows may display a SmartScreen warning on unsigned or newly distributed builds. Review the file/source before choosing to continue.
 
----
+## Beta software
 
-## Beta Software
+OlsonAI is actively being tested and improved. Beta releases may contain bugs, incomplete edge-case handling, or behavior that changes between versions.
 
-> **OlsonAI is currently beta software.**
+For file-changing tools, review the proposed action before approval and keep backups of important data.
 
-Features may change, bugs may occur, and some functionality is still actively being developed.
+## Reporting bugs
 
-Beta testers are encouraged to report unexpected behavior so it can be investigated before a stable release.
-
-**Do not use beta software as your only copy of irreplaceable data. Maintain backups of important files.**
-
----
-
-## Reporting Bugs
-
-Found something broken?
-
-Please use the GitHub **Issues** section to report it.
-
-Helpful bug reports include:
+When reporting an issue, include:
 
 - OlsonAI version
-- Windows version
-- What you were trying to do
+- What you were doing
 - What you expected to happen
 - What actually happened
-- Screenshots when applicable
-- Steps that reproduce the problem
+- A screenshot when useful
 
----
+Beta 9 also includes privacy-conscious diagnostic reporting to make tester feedback more actionable without including chat contents, prompts, file contents, or filenames.
 
-## Feature Requests
+## Privacy & safety philosophy
 
-Ideas and suggestions are welcome.
+OlsonAI is built around a simple rule: **the user stays in control.**
 
-Use GitHub Issues to suggest:
-
-- New tools
-- Workflow improvements
-- UI improvements
-- AI capabilities
-- File-management features
-- Quality-of-life changes
-
-OlsonAI is actively evolving based on real-world testing and feedback.
-
----
-
-## Current Development Status
-
-OlsonAI is under active development.
-
-The current development focus includes:
-
-- AI conversation quality
-- Local AI performance
-- File-management intelligence
-- Safer automation
-- Windows integration
-- Task reliability
-- UI responsiveness
-- Create Studio
-- Image generation and analysis
-- Better system-wide workflows
-
----
-
-## Privacy
-
-OlsonAI is designed around a local-first approach, but **not every current or future feature should automatically be assumed to operate entirely offline**.
-
-Features that communicate with external services should be clearly identified as development progresses.
-
-Users should always understand when information is being processed locally versus externally.
-
----
+Actions that can modify files are designed to show what is about to happen before execution. Where appropriate, OlsonAI uses the Recycle Bin, safe Undo, and review steps instead of destructive one-click behavior.
 
 ## Project
 
-**OlsonAI Desktop Assistant**
+OlsonAI was created by **Justin Olson**, with development assistance from ChatGPT/OpenAI. OlsonAI’s local conversational functionality can use models served through Ollama; model attribution remains with the respective model creators.
 
-Created and maintained by **Justin Olson**
+## Current release
 
-### Your PC. Your Files. Your AI.
+**OlsonAI 1.0 Beta 9**
+
+Release tag: `v1.0.0-beta.9`
+
+Installer: `OlsonAI_Setup_1.0.0_Beta9.exe`
+
+SHA-256:
+
+```text
+01DFCA9E8156655A91637ABB02B5B4B30398926C5D06922DD10FD4BE83C27FA4
+```
 
 ---
 
-## Releases
-
-Download the newest public build from the **Releases** section of this repository.
-
-If you're already using OlsonAI, you can also check for updates from:
-
-**Settings → Updates & Beta Feedback → Check Now**
-
----
-
-### Thanks for testing OlsonAI
-
-OlsonAI is being built to make AI genuinely useful on a Windows PC — not just another chatbot sitting in a browser.
-
-If you're testing an early build, reporting bugs, suggesting features, or simply trying it out:
-
-**Thank you for helping make OlsonAI better.**
+**OlsonAI — Your PC. Your Files. Your AI.**
