@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-beta.6.1",
-  "display_version": "1.0 Beta 6.1",
-  "title": "OlsonAI 1.0 Beta 6.1 — Beta 6 Hotfix",
-  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.6.1/OlsonAI_Setup_1.0.0_Beta6_1.exe",
-  "sha256": "6F3B5EF30840994ED5A56FB4698900561CEA4DE9CE22B6C66BC6B0B9BF4B6A07",
+  "version": "1.0.0-beta.8",
+  "display_version": "1.0 Beta 8",
+  "title": "OlsonAI 1.0 Beta 8",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.8/OlsonAI_Setup_1.0.0_Beta8.exe",
+  "sha256": "223370D02F2596D20DCF966148A82C77977E5B13CC59F730F909A2AB67822AD6",
   "notes": [
     "Restored Windows taskbar, Start Menu, and system tray integration",
-    "Fixed Smart Organize folder selection display",
-    "Fixed Smart Organize review and Apply workflow",
-    "Completed task strip now clears after the completed task is opened",
+    "Fixed Smart Organize folder selection, review, and Apply workflow",
+    "Improved completed-task navigation and acknowledgment behavior",
     "Improved Smart Cleanup task integration and review flow",
-    "Improved Duplicate Finder execution and Recycle Bin cleanup",
+    "Improved Duplicate Finder exact-copy review and Recycle Bin cleanup",
     "Restored Create Studio controls and creation workflow",
-    "Additional Beta 6 stability fixes"
+    "Retains Beta 6 chat intelligence, Game Mode, sound controls, and UI improvements",
+    "Additional stability and usability fixes"
   ]
 }
