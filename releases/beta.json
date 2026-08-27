@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0-beta.4",
-  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.4/OlsonAI_Setup_1.0.0_Beta4.exe",
-  "sha256": "BE276F1FE91F453FD68062859980A99BF9AEE1254814DC01EF3700700D2935FE",
+  "version": "1.0.0-beta.5",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.5/OlsonAI_Setup_1.0.0_Beta5.exe",
+  "sha256": "0637F3A63D8607296039FC50E4E665EA0D2B838529745371D2B1BFD279E78895",
   "required": false,
-  "notes": "OlsonAI 1.0 Beta 4 - Action Intelligence update. Improves real tool execution, image-generation routing, natural approvals, and artifact handling."
+  "notes": "OlsonAI 1.0 Beta 5 - Product Polish & Tester Experience. Improved chat, action clarity, error handling, update UX, onboarding, settings, tool consistency, Task Center statuses, beta feedback tools, UI refinement, and image generation setup and workflow."
 }
