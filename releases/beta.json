@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0-beta.8",
-  "display_version": "1.0 Beta 8",
-  "title": "OlsonAI 1.0 Beta 8",
-  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.8/OlsonAI_Setup_1.0.0_Beta8.exe",
-  "sha256": "223370D02F2596D20DCF966148A82C77977E5B13CC59F730F909A2AB67822AD6",
+  "version": "1.0.0-beta.9",
+  "display_version": "1.0 Beta 9",
+  "title": "OlsonAI 1.0 Beta 9",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.9/OlsonAI_Setup_1.0.0_Beta9.exe",
+  "sha256": "01DFCA9E8156655A91637ABB02B5B4B30398926C5D06922DD10FD4BE83C27FA4",
+  "required": false,
   "notes": [
-    "Restored Windows taskbar, Start Menu, and system tray integration",
-    "Fixed Smart Organize folder selection, review, and Apply workflow",
-    "Improved completed-task navigation and acknowledgment behavior",
-    "Improved Smart Cleanup task integration and review flow",
-    "Improved Duplicate Finder exact-copy review and Recycle Bin cleanup",
-    "Restored Create Studio controls and creation workflow",
-    "Retains Beta 6 chat intelligence, Game Mode, sound controls, and UI improvements",
-    "Additional stability and usability fixes"
+    "Smoother Windows minimize, restore, taskbar, and tray behavior",
+    "New Create Suite File Converter with batch conversion",
+    "New local Audio to MIDI transcription",
+    "New post-update What's New walkthrough",
+    "Home Recent Activity, component status, and safe Undo",
+    "Drag and drop, optional Send to OlsonAI, diagnostics, and UI polish"
   ]
 }
+
