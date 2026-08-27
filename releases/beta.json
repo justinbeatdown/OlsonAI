@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0-beta.3",
-  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.3/OlsonAI_Setup_1.0.0_Beta3.exe",
-  "sha256": "0D486123BB72B33CE170688248AEDF88F97AA45F013164ADA45FD5EE40C5B106",
+  "version": "1.0.0-beta.4",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.4/OlsonAI_Setup_1.0.0_Beta4.exe",
+  "sha256": "BE276F1FE91F453FD68062859980A99BF9AEE1254814DC01EF3700700D2935FE",
   "required": false,
-  "notes": "OlsonAI 1.0 Beta 3 - Adds Smart Organize controls for moving files, renaming files, or both."
+  "notes": "OlsonAI 1.0 Beta 4 - Action Intelligence update. Improves real tool execution, image-generation routing, natural approvals, and artifact handling."
 }
