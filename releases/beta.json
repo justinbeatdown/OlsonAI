@@ -1,7 +1,22 @@
 {
-  "version": "1.0.0-beta.5",
-  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.5/OlsonAI_Setup_1.0.0_Beta5.exe",
-  "sha256": "0637F3A63D8607296039FC50E4E665EA0D2B838529745371D2B1BFD279E78895",
-  "required": false,
-  "notes": "OlsonAI 1.0 Beta 5 - Product Polish & Tester Experience. Improved chat, action clarity, error handling, update UX, onboarding, settings, tool consistency, Task Center statuses, beta feedback tools, UI refinement, and image generation setup and workflow."
+  "version": "1.0.0-beta.6",
+  "display_version": "1.0 Beta 6",
+  "title": "OlsonAI 1.0 Beta 6 — Intelligence & Cleanup",
+  "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.6/OlsonAI_Setup_1.0.0_Beta6.exe",
+  "sha256": "F6DA3EE94E081912B04023535F788FDBF39B82B6D7B1C01AC04EC11E90694009",
+  "notes": [
+    "Major Ask OlsonAI conversation overhaul",
+    "More natural, concise and context-aware responses",
+    "Stateful Game Mode with multiple games",
+    "New Smart Cleanup and junk-file detection",
+    "Selected Folder and Full PC scanning",
+    "SHA-256 exact duplicate detection",
+    "Safer Recycle Bin cleanup workflow",
+    "Improved approval notifications and attention alerts",
+    "Fixed chat text wrapping and clipping",
+    "Improved mouse-wheel scrolling",
+    "Custom OlsonAI startup and notification sounds",
+    "New one-click sound mute control",
+    "Additional UI polish and stability improvements"
+  ]
 }
