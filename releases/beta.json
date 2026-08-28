@@ -3,7 +3,7 @@
   "display_version": "1.0 Beta 9",
   "title": "OlsonAI 1.0 Beta 9",
   "download_url": "https://github.com/justinbeatdown/OlsonAI/releases/download/v1.0.0-beta.9/OlsonAI_Setup_1.0.0_Beta9.exe",
-  "sha256": "01DFCA9E8156655A91637ABB02B5B4B30398926C5D06922DD10FD4BE83C27FA4",
+  "sha256": "9B707495E19299FE1032C7E896A085538101C3928422F93F1EB8E3D44F3AECD6",
   "required": false,
   "notes": [
     "Smoother Windows minimize, restore, taskbar, and tray behavior",
@@ -11,7 +11,8 @@
     "New local Audio to MIDI transcription",
     "New post-update What's New walkthrough",
     "Home Recent Activity, component status, and safe Undo",
+    "Bundled Ollama, FFmpeg, Basic Pitch, and ONNX runtime components",
+    "Permission-gated first-run Gemma model setup",
     "Drag and drop, optional Send to OlsonAI, diagnostics, and UI polish"
   ]
 }
-
